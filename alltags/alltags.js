@@ -92,7 +92,7 @@ function filterItems(e){
     if(itemName.toLowerCase().indexOf(text) != -1){
       item.style.display = 'block';
     } else {
-      item.style.display = 'none';
+      item.style.display = 'none' ;
     }
   });
 }
